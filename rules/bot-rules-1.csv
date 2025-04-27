@@ -1,0 +1,43 @@
+##
+## Advanced Rules for DSA_Bot
+#
+# These rules are designed for an advanced DSA learning bot:
+# Generated using ChatGPT
+#
+
+message,response
+
+# Greetings and Introduction
+*hello*, Hi! I’m DSA_Bot. Ready to explore Data Structures and Algorithms? Type `help` to see what I can do.
+*hi*, Hello! Ask me about any DSA topic, or type `challenge` for a coding problem.
+*who are you*, I’m your personal assistant for learning DSA. I explain concepts, debug code, give challenges, and more!
+
+# Explanations (Step-by-Step and Advanced Topics)
+*explain binary search*, Binary Search divides a sorted array into halves to locate a target value. Complexity: O(log n). Need a detailed walkthrough or a Python example?
+*explain quicksort*, QuickSort uses a pivot to partition an array and recursively sort the partitions. Complexity: O(n log n) on average. Want me to visualize the steps?
+*explain Bellman-Ford*, Bellman-Ford finds shortest paths in a graph, even with negative weights. Complexity: O(VE). Shall I show you the algorithm’s pseudocode?
+*explain trie*, A Trie is a tree-like data structure used for efficient retrieval of strings. Great for autocomplete and spell-check. Want code or a diagram?
+*explain dynamic programming*, DP solves complex problems by breaking them into overlapping subproblems. Should I explain with an example like the Knapsack Problem?
+
+# Challenges with Hints and Levels
+*challenge easy*, Solve this: "Reverse a string in Python." Need hints?
+*challenge easy*, Try this: "Find the maximum element in an array." Hint: Iterate through the array and keep track of the max value.
+*challenge easy*, Solve this: "Check if a given string is a palindrome." Would you like help with two-pointer logic?
+
+*challenge medium*, Here’s a problem: "Find the longest increasing subsequence in an array." Hint: Use Dynamic Programming.
+*challenge medium*, Solve this: "Given a binary tree,return its level-order traversal." Need hints for using a queue?
+*challenge medium*, Try this: "Find all pairs in an array whose sum equals a given target." Hint: Hash maps can help here.
+
+*challenge hard*, Challenge: "Solve the Traveling Salesman Problem using a greedy heuristic." Want a follow-up explanation or hints?
+*challenge hard*, Try this: "Implement an algorithm to detect cycles in a directed graph using DFS." Need help setting up the recursion?
+*challenge hard*, Solve this: "Find the maximum flow in a network using the Ford-Fulkerson method." Want an example graph for testing?
+
+*random challenge*, Try this random problem: "Find the kth largest element in a binary search tree." Should I provide a test case?
+*random challenge*, Solve this: "Implement a priority queue using a binary heap." Need hints for heapify operations?
+*random challenge*, Can you solve this? "Given a graph, find the shortest path from node A to node B using Dijkstra’s Algorithm."
+
+# Fallbacks and Follow-ups
+*idk*, I’m here to help! Try rephrasing your query or typing `help` for a list of commands.
+*thanks*, You’re welcome! Keep exploring DSA.
+*bye*, Goodbye! Happy coding and solving problems!
+*see you*, See you next time! Let me know what you learned.
